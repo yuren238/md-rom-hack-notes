@@ -1,0 +1,22 @@
+# ROM 镜像与模拟器产物：一律不入库
+*.bin
+*.smd
+*.gen
+*.srm
+*.gsx
+*.nv
+*.state
+
+# 注意：部分平台的 ROM 使用 .md 扩展名，与 Markdown 冲突，
+# 因此这里不写 *.md。提交前请自行确认没有把 ROM 误加入。
+
+# 本地记录的魔数等个人配置
+magics.json
+magic.txt
+
+# Python
+__pycache__/
+*.pyc
+
+# 工具输出
+out/
